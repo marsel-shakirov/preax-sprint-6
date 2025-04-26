@@ -1,0 +1,10 @@
+.filter {
+	padding-top: var(--padding-lg);
+	padding-bottom: var(--padding-sm);
+}
+
+.filterList {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

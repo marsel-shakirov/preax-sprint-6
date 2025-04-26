@@ -1,0 +1,12 @@
+.logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (any-hover: hover) {
+	.logo:hover {
+		opacity: 0.8;
+		transition: opacity var(--animate);
+	}
+}

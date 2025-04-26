@@ -1,0 +1,22 @@
+.footer {
+	padding-block: var(--padding-sm);
+}
+
+.preax {
+	font-size: var(--font-size-sm);
+	line-height: 1.42;
+	font-weight: var(--font-weighMedium);
+	color: var(--color-mediumGray);
+}
+
+.preaxLink {
+	color: inherit;
+	text-transform: uppercase;
+	transition: opacity var(--animate);
+}
+
+@media (any-hover: hover) {
+	.preaxLink:hover {
+		opacity: 0.7;
+	}
+}

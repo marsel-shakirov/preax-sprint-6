@@ -1,0 +1,35 @@
+:root {
+	--font-family: 'Montserrat', sans-serif;
+
+	--padding-lg: 3rem;
+	--padding-md: 2.5rem;
+	--padding-sm: 2rem;
+	--padding-xsm: 1.5rem;
+	--padding-xxsm: 0.875rem;
+
+	--color-blue: #5c89ce;
+	--color-lightGray: #c5c5c5;
+	--color-lightBlue: #8caee0;
+	--color-white: #ffffff;
+	--color-darkGray: #202020;
+	--color-gray: #f9f9f9;
+	--color-mediumGray: #747474;
+
+	--font-base: 0.75rem;
+	--font-size-md: 1.5rem;
+	--font-size-sm: 0.875rem;
+	--font-size-xsm: 1rem;
+
+	--font-weighBold: 700;
+	--font-weighMedium: 500;
+
+	--border-mainRadius: 1rem;
+
+	--gap-lg: 8.1rem;
+	--gap-md: 4.5rem;
+	--gap-sm: 2rem;
+	--gap-xsm: 1.06rem;
+	--gap-xxsm: 0.5rem;
+
+	--animate: 0.3s ease-in-out;
+}

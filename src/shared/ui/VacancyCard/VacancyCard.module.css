@@ -1,0 +1,66 @@
+.vacancyItem {
+	border-radius: var(--border-mainRadius);
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+.vacancyLink {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.vacancyHeaderWrapper {
+	display: flex;
+	justify-content: space-between;
+	column-gap: var(--gap-sm);
+}
+
+.vacancyCard {
+	display: flex;
+	flex-direction: column;
+	row-gap: 1rem;
+	padding: var(--padding-sm);
+}
+
+.vacancyHeader {
+	max-width: 77%;
+}
+
+.vacancyTitle {
+	font-size: var(--font-size-xsm);
+	line-height: 1.5;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.vacancySalary {
+	margin-top: 4px;
+	font-size: var(--font-size-xsm);
+	line-height: 1.5;
+	display: block;
+}
+
+.vacancyCompany {
+	display: block;
+}
+
+.vacancyCity {
+	display: block;
+	margin-top: 8px;
+}
+
+.vacancyFooter {
+	display: flex;
+	column-gap: var(--gap-xxsm);
+}
+
+.vacancyExperience {
+	display: block;
+}
+
+@media (any-hover: hover) {
+	.vacancyItem:hover {
+		box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+		transition: box-shadow var(--animate);
+	}
+}

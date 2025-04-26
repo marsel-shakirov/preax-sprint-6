@@ -1,0 +1,18 @@
+.vacancyBlock {
+	display: flex;
+	flex-direction: column;
+	row-gap: var(--padding-sm);
+}
+
+.vacancyListTitle {
+	display: block;
+	font-size: var(--font-size-md);
+}
+
+.vacancyList {
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: repeat(3, minmax(293px, 1fr));
+	gap: var(--gap-sm);
+	/* grid-template-rows: repeat(); */
+}
